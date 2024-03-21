@@ -13,6 +13,6 @@ export class ValidateInputPipe extends ValidationPipe {
     }
 
     private handleError(errors) {
-        return errors.map(error => error.constraints);
+        return errors;
     }
 }
